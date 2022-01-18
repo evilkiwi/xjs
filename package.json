@@ -1,6 +1,6 @@
 {
     "name": "@tnotifier/xjs",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "XSplit Broadcaster XJS Client",
     "files": ["build"],
     "sideEffects": false,
@@ -36,6 +36,7 @@
         "dev": "vite build --watch"
     },
     "dependencies": {
+        "@tnotifier/logger": "^1.0.4",
         "nanoevents": "^6.0.2"
     },
     "devDependencies": {

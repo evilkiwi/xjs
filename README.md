@@ -28,7 +28,7 @@ npm install @tnotifier/xjs
 ```typescript
 import { xjs, Subscription } from '@tnotifier/xjs';
 
-const client = await xjs();
+const client = await xjs({ debug: true });
 
 // Asynchronous requests.
 const activeScene = await client.getActiveScene();

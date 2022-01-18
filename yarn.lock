@@ -23,6 +23,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@tnotifier/logger@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@tnotifier/logger/-/logger-1.0.4.tgz#aa4e392919b1148d1979c2f23644573d331ea8ce"
+  integrity sha512-O9jr/E5/sK4QZZhqK5UXcBRb+wEHdEzRpk/TqV4GExdahOKUnFsxHe9wRkZefE3vI5tnbY201/XZChRyF2/JVQ==
+
 "@ts-morph/common@~0.10.1":
   version "0.10.1"
   resolved "https://registry.yarnpkg.com/@ts-morph/common/-/common-0.10.1.tgz#be15b9ab13a32bbc1f6a6bd7dc056b2247b272eb"

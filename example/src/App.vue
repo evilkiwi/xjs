@@ -21,7 +21,7 @@
     let client!: PromiseType<ReturnType<typeof xjs>>;
 
     onMounted(async () => {
-        client = await xjs();
+        client = await xjs({ debug: true });
         connected.value = true;
 
         // Process the initial Scenes.

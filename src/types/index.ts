@@ -6,4 +6,10 @@ export interface AsyncRegistry {
     };
 }
 
+export interface Options {
+    host?: string;
+    ports?: number[];
+    debug?: boolean;
+}
+
 export * from './events';
