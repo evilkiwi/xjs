@@ -1,3 +1,5 @@
+import type { Emitter } from 'nanoevents';
+
 export interface AsyncRegistry {
     [id: string]: {
         resolve: (data: unknown) => void;
@@ -10,6 +12,7 @@ export interface Options {
     host?: string;
     ports?: number[];
     debug?: boolean;
+    events?: Emitter;
 }
 
 export * from './events';

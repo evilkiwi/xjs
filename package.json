@@ -1,8 +1,10 @@
 {
     "name": "@tnotifier/xjs",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "XSplit Broadcaster XJS Client",
-    "files": ["build"],
+    "files": [
+        "build"
+    ],
     "sideEffects": false,
     "main": "./build/index.cjs.js",
     "module": "./build/index.es.js",
@@ -41,9 +43,9 @@
     },
     "devDependencies": {
         "rimraf": "^3.0.2",
-        "tslib": "^2.3.0",
-        "typescript": "^4.3.5",
-        "vite": "^2.4.3",
-        "vite-plugin-dts": "^0.5.3"
+        "tslib": "^2.3.1",
+        "typescript": "^4.5.5",
+        "vite": "^2.7.13",
+        "vite-plugin-dts": "^0.9.9"
     }
 }

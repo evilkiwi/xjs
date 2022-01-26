@@ -14,7 +14,7 @@ export const xjs = async (options: Options = {}) => {
         ...options,
     };
 
-    const events = createNanoEvents<Events>();
+    const events = options.events ?? createNanoEvents<Events>();
     const logger = createLogger({ name: 'xjs' });
 
     if (!debug) {
