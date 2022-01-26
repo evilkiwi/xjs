@@ -113,3 +113,4 @@ export const xjs = async (options: Options = {}) => {
 };
 
 export * from './enums';
+export type { Options };

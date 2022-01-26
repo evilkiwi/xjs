@@ -1,4 +1,4 @@
-# 1.0.2 (2022-01-26)
+# 1.0.3 (2022-01-26)
 
 - Allow providing of existing Event Emitter
 - Upgraded to Yarn 2
