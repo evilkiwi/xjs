@@ -1,5 +1,5 @@
 {
-    "name": "@tnotifier/xjs",
+    "name": "@evilkiwi/xjs",
     "version": "1.0.3",
     "description": "XSplit Broadcaster XJS Client",
     "files": [
@@ -11,17 +11,17 @@
     "types": "./build/src/index.d.ts",
     "license": "GPL-3.0-only",
     "author": {
-        "name": "CastHub Limited",
-        "url": "https://tnotifier.app",
-        "email": "support@tnotifier.app"
+        "name": "Evil Kiwi Limited",
+        "url": "https://evil.kiwi",
+        "email": "support@evil.kiwi"
     },
-    "homepage": "https://github.com/tnotifier/xjs",
+    "homepage": "https://github.com/evilkiwi/xjs",
     "bugs": {
-        "url": "https://github.com/tnotifier/xjs/issues"
+        "url": "https://github.com/evilkiwi/xjs/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/tnotifier/xjs.git"
+        "url": "git+https://github.com/evilkiwi/xjs.git"
     },
     "keywords": [
         "xjs",
@@ -38,7 +38,7 @@
         "dev": "vite build --watch"
     },
     "dependencies": {
-        "@tnotifier/logger": "^1.0.4",
+        "@evilkiwi/logger": "^1.0.4",
         "nanoevents": "^6.0.2"
     },
     "devDependencies": {

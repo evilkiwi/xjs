@@ -1,32 +1,32 @@
 <div align="center">
-    <a href="https://www.npmjs.com/package/@tnotifier/xjs" target="_blank">
-        <img src="https://img.shields.io/npm/v/@tnotifier/xjs?style=flat-square" alt="NPM" />
+    <a href="https://www.npmjs.com/package/@evilkiwi/xjs" target="_blank">
+        <img src="https://img.shields.io/npm/v/@evilkiwi/xjs?style=flat-square" alt="NPM" />
     </a>
     <a href="https://discord.gg/XMrHXtN" target="_blank">
         <img src="https://img.shields.io/discord/123906549860139008?color=7289DA&label=discord&logo=discord&logoColor=FFFFFF&style=flat-square" alt="Discord" />
     </a>
-    <img src="https://img.shields.io/npm/l/@tnotifier/xjs?style=flat-square" alt="Apache-2.0" />
+    <img src="https://img.shields.io/npm/l/@evilkiwi/xjs?style=flat-square" alt="Apache-2.0" />
     <h3>XSplit Broadcaster XJS Client</h3>
 </div>
 
-`@tnotifier/xjs` provides a simple hook which can be used to connect to and consume the XSplit Broadcaster XJS Plugin.
+`@evilkiwi/xjs` provides a simple hook which can be used to connect to and consume the XSplit Broadcaster XJS Plugin.
 
 ## Installation
 
 This package is available via NPM:
 
 ```bash
-yarn add @tnotifier/xjs
+yarn add @evilkiwi/xjs
 
 # or
 
-npm install @tnotifier/xjs
+npm install @evilkiwi/xjs
 ```
 
 ## Usage
 
 ```typescript
-import { xjs, Subscription } from '@tnotifier/xjs';
+import { xjs, Subscription } from '@evilkiwi/xjs';
 
 const client = await xjs({ debug: true });
 
